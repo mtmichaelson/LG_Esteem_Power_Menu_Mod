@@ -468,7 +468,7 @@
     iput-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mAirplaneModeOn:Lcom/android/internal/policy/impl/GlobalActions$ToggleAction;
 
     .line 209
-    const/4 v0, 0x3
+    const/4 v0, 0x5
 
     new-array v0, v0, [Lcom/android/internal/policy/impl/GlobalActions$Action;
 
@@ -491,6 +491,30 @@
     const v4, 0x1040120
 
     invoke-direct {v2, p0, v3, v4}, Lcom/android/internal/policy/impl/GlobalActions$3;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x3
+
+    new-instance v2, Lcom/android/internal/policy/impl/GlobalActions$7;
+
+    const v3, 0x01080384
+
+    const v4, 0x010403f3
+
+    invoke-direct {v2, p0, v3, v4}, Lcom/android/internal/policy/impl/GlobalActions$7;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x4
+
+    new-instance v2, Lcom/android/internal/policy/impl/GlobalActions$8;
+
+    const v3, 0x01080385
+
+    const v4, 0x010403f2
+
+    invoke-direct {v2, p0, v3, v4}, Lcom/android/internal/policy/impl/GlobalActions$8;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
 
     aput-object v2, v0, v1
 

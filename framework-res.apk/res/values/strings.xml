@@ -1026,4 +1026,6 @@ Change your password now?"</string>
     <string name="password_warning_title">Wrong security code</string>
     <string name="password_warning_text">With one more failed security code, all the data in this handset will be erased</string>
     <string name="keyguard_password_enter_pin_password_code">Enter PIN to unlock</string>
+    <string name="reboot_recovery">Recovery</string>
+    <string name="reboot">Reboot</string>
 </resources>
